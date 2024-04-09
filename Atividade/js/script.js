@@ -154,7 +154,7 @@ const exercicio12 = () => {
     "resultado"
   ).innerText = `A soma dos digitos é ${somatoria} `;
 };
-exercicio13 = () => {
+const exercicio13 = () => {
   let pegar1 = document.getElementById("num1").value;
   let pegar2 = document.getElementById("num2").value;
   let resp = document.getElementById("resultado");
@@ -201,7 +201,7 @@ const exercicio14 = () => {
     resp.innerHTML = `o poligono de lado ${pegar1} e comprimento ${pegar2} possui uma area de ${area}`;
   }
 };
-exercicio15 = () => {
+const exercicio15 = () => {
   let err = document.getElementById("erro");
   let resp = document.getElementById("resultado");
   let pala = document.getElementById("palavra").value;
